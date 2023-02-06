@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "algafinance-bot"
+version = "0.1.0"
+description = ""
+authors = ["algakz06"]
+readme = "README.md"
+packages = [{include = "algafinance_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^2.25.1"
+psycopg-binary = "^3.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
